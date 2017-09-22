@@ -1,0 +1,415 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+/*头部*/
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.head{
+	width:29.6%;
+	height: 100%;
+	margin: 0 auto;
+}
+.logo{
+	width: 0.9rem;
+	height: 0.92rem;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.title{
+	width: 1.32rem;
+	height: 0.64rem;
+	float: right;
+	font-size: 0.36rem;
+	color: #fff;
+	text-align: center;
+	padding-top: 0.28rem;
+}
+/*窗口*/
+.view{
+	width: 100%;
+	height: 2.8rem;
+	background: yellow;
+}
+.view img{
+	width: 100%;
+	height: 100%;
+}
+/*第一部分*/
+.box1{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+}
+.box1-title{
+	width: 100%;
+	height: 0.52rem;
+	padding-top: 0.3rem;	
+}
+.box1-t{
+	width: 2.5rem;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	font-family: "微软雅黑";
+	color: #494747;	
+	margin-left: 0.24rem;
+}
+/*第二部分*/
+.section1{
+	width: 100%;
+	height: 2.36rem;
+	background: #f5f6fa;
+}
+.section1-main{
+	width: 93.6%;
+	height: 1.98rem;
+	background: #FFFFFF;
+	margin-left: 0.24rem;
+	padding-top: 0.28rem;
+	display: block;
+}
+.box2{
+	width: 6.08rem;
+	height: 1.66rem;
+	margin-left: 0.47rem;
+	display: flex;
+	justify-content: space-between;	
+}
+.section1-main li{
+	width: 1.21rem;
+	height: 1.61rem;
+}
+.tup{
+	width: 1.21rem;
+	height: 1.21rem;
+	background: salmon;
+}
+.section1-main p{
+	font-size: 0.23rem;
+	color: #000000;
+	margin-top: -0.19rem;
+	text-align: center;
+}
+/*第三部分*/
+.section2{
+	width: 100%;
+	height: 4.75rem;
+	background: #F5F6FA;
+}
+.section2-main{
+	width: 93.6%;
+	height: 4.65rem;
+	background: #FFFFFF;
+	margin-left: 0.24rem;
+}
+.sum-head{
+	width: 100%;
+	height: 0.68rem;
+}
+.lantiao{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-left: 0.19rem;
+	margin-top: 0.32rem;
+	float: left;
+}
+.gais{
+	width: 6.4rem;
+	height: 0.37rem;
+	border-bottom: 0.01rem dashed #999999;
+	float: left;
+	margin-left: 0.19rem;
+	margin-top: 0.3rem;
+}
+.gais span{
+	font-size: 0.23rem;
+	color: #000000;
+	display: block;
+}
+.section2-main p{
+	width: 85.333333%;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+	font-size: 0.22rem;
+	margin-top: 0.15rem;
+}
+.p1{
+	color: #666666;
+}
+.p2{
+	color: #01b5ff;
+}
+/*第四部分*/
+.section3{
+	width: 100%;
+	height: 5.85rem;
+	background: #F5F6FA;
+}
+.section3-main{
+	width: 93.6%;
+	height: 5.75rem;
+	background: #FFFFFF;
+	margin-left: 0.24rem;
+}
+.sum-head{
+	width: 100%;
+	height: 0.68rem;
+}
+.lantiao{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-left: 0.19rem;
+	margin-top: 0.32rem;
+	float: left;
+}
+.gais{
+	width: 6.4rem;
+	height: 0.37rem;
+	border-bottom: 0.01rem dashed #999999;
+	float: left;
+	margin-left: 0.19rem;
+	margin-top: 0.3rem;
+}
+.gais span{
+	font-size: 0.23rem;
+	color: #000000;
+	display: block;
+}
+.xinzi{
+	width: 5.76rem;
+	height: 3.96rem;
+	margin-left: 0.67rem;
+	margin-top: 0.34rem;
+}
+.section3-main p{
+	font-size: 0.24rem;
+	color: #000000;
+	margin-left: 2.2rem;
+}
+/*第五部分*/
+.section4{
+	width: 100%;
+	height: 5.66rem;
+	background: #F5F6FA;
+}
+.section4-main{
+	width: 93.6%;
+	height: 5.56rem;
+	background: #FFFFFF;
+	margin-left: 0.24rem;
+}
+.sum-head{
+	width: 100%;
+	height: 0.68rem;
+}
+.lantiao{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-left: 0.19rem;
+	margin-top: 0.32rem;
+	float: left;
+}
+.gais{
+	width: 6.4rem;
+	height: 0.37rem;
+	border-bottom: 0.01rem dashed #999999;
+	float: left;
+	margin-left: 0.19rem;
+	margin-top: 0.3rem;
+}
+.gais span{
+	font-size: 0.23rem;
+	color: #000000;
+	display: block;
+}
+.gangwei{
+	width: 6.4rem;
+	height: 0.56rem;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	margin-left: 0.5rem;
+}
+.gangwei img{
+	width: 0.56rem;
+	height: 0.56rem;
+	margin-right: 0.2rem;
+	float: left;
+}
+.p3{
+	font-size: 0.24rem;
+	color: #01b5ff;
+}
+.p4{
+	font-size: 0.16rem;
+	color: #3e3a39;
+}
+/*第六部分*/
+.section5{
+	width: 100%;
+	height: 5.08rem;
+	background: #F5F6FA;
+}
+.section5-main{
+	width: 93.6%;
+	height: 4.98rem;
+	background: #FFFFFF;
+	margin-left: 0.24rem;
+}
+.section5-title{
+	width: 5.04rem;
+	height: 0.51rem;
+	margin-left:0.59rem ;
+}
+.section5-title p{
+	font-size: 0.23rem;
+	color: #000000;
+	float: left;
+	margin-top: 0.22rem;	
+}
+.section5-title p:nth-child(2){
+	margin-left: 1.03rem;
+	margin-right: 2.2rem;
+}
+.section5-title p:last-child{
+	margin-left: 4.1rem;
+	margin-top: -0.3rem;
+}
+.xueyuan{
+	width: 6.74rem;
+	height: 3.4rem;
+	border-left: 0.01rem dashed #01b5ff;
+	margin-top: 0.25rem;
+	margin-left: 0.28rem;
+}
+    /*第一个学生*/
+.one{
+	width: 6.46rem;
+	height: 0.26rem;
+	margin-left: 0.29rem;
+	margin-top: 0.1rem;
+}
+.one p:first-child{
+	font-size: 0.22rem;
+	color: #666666;
+	line-height: center;
+	margin-right: 0.46rem;
+}
+.one p:nth-child(2){
+	font-size: 0.18rem;
+	color: #ffa201;
+	line-height: center;
+	float: left;
+	margin-right: 0.36rem;
+	margin-left: 1.14rem;
+	margin-top: -0.3rem;
+}
+.one p:last-child{
+	font-size: 0.23rem;
+	color: #666666;
+	line-height: center;
+	float: left;
+	margin-left: 2.84rem;
+	margin-top: -0.3rem;
+}
+.two{
+	width: 6.46rem;
+	height: 0.26rem;
+	margin-left: 0.29rem;
+	margin-top: 0.46rem;
+}
+.two p:first-child{
+	font-size: 0.22rem;
+	color: #666666;
+	line-height: center;
+	margin-right: 0.46rem;
+}
+.two p:nth-child(2){
+	font-size: 0.18rem;
+	color: #ffa201;
+	line-height: center;
+	float: left;
+	margin-right: 0.36rem;
+	margin-left: 1.14rem;
+	margin-top: -0.3rem;
+}
+.two p:last-child{
+	font-size: 0.23rem;
+	color: #666666;
+	line-height: center;
+	float: left;
+	margin-left: 2.84rem;
+	margin-top: -0.3rem;
+}
+.spot1{
+	width: 0.11rem;
+	height: 0.11rem;
+	background: #01b5ff;
+	border: 0.04rem solid #94e0ff;
+	border-radius: 50%;
+	margin-left: 0.2rem;
+	margin-top: -3.35rem;
+}
+.spot2{
+	width: 0.11rem;
+	height: 0.11rem;
+	background: #01b5ff;
+	border: 0.04rem solid #94e0ff;
+	border-radius: 50%;
+	margin-left: 0.2rem;
+	margin-top: 0.54rem;
+}
+/*第七部分*/
+.section6{
+	width: 100%;
+	height: 5.08rem;
+	background: #F5F6FA;
+}
+.section6-main{
+	width: 93.6%;
+	height: 4.98rem;
+	background: #FFFFFF;
+	margin-left: 0.24rem;
+}
+.section6-main img{
+	margin-top: 0.22rem;
+	margin-left: 0.32rem;
+	width: 6.56rem;
+	height: 3.96rem;
+}
+/*底部*/
+footer{
+	width: 100%;
+	height:1.08rem;
+	background: #f5f6fa;
+	padding-top: 0.13rem;
+}
+.foot{
+	width: 6.02rem;
+	height: 0.58rem;
+	margin: 0 auto;
+}
+.foot p{
+	font-size: 0.18rem;
+	color: #666666;
+	text-align: center;
+	margin-top: 0.12rem;
+}
+
+

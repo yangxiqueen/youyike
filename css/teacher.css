@@ -1,0 +1,576 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+/*头部*/
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.head{
+	width:29.6%;
+	height: 100%;
+	margin: 0 auto;
+}
+.logo{
+	width: 0.9rem;
+	height: 0.92rem;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.title{
+	width: 1.32rem;
+	height: 0.64rem;
+	float: right;
+	font-size: 0.36rem;
+	color: #fff;
+	text-align: center;
+	padding-top: 0.28rem;
+}
+/*窗口*/
+.view{
+	width: 100%;
+	height: 2.8rem;
+	background: yellow;
+}
+.view img{
+	width: 100%;
+	height: 100%;
+}
+/*第一部分*/
+.box1{
+	width: 100%;
+	height: 1.63rem;
+	background: #f5f6fa;
+}
+.box1-title{
+	width: 100%;
+	height: 0.23rem;
+	padding-top: 0.3rem;	
+}
+.box1-t{
+	width: 1.9rem;
+	height: 0.23rem;
+	font-size: 0.21rem;
+	font-family: "微软雅黑";
+	color: #494747;	
+	margin-left: 0.24rem;
+}
+.classify{
+	width: 6.98rem;
+	height: 0.76rem;
+	background: #f5f6fa;
+	border: 0.02rem solid #01b5ff;
+	border-radius: 0.07rem;
+	margin-top: 0.19rem;
+	margin-left: 0.24rem;
+	display: block;
+}
+.classify-box1{
+	width: 2.59rem;
+	height: 0.8rem;
+	background: #01b5ff;
+	border-radius: 0.07rem;
+	float: left;
+}
+.classify-box1 span{
+	font-size: 0.25rem;
+	color: #fff;
+	margin-top: 0.22rem;
+	margin-left: 0.86rem;
+	float: left;
+}
+.angle{
+	width: 0;
+	height: 0;
+	border-top: 0.2rem solid #01B5FF;
+	border-left: 0.2rem solid transparent;
+	border-right:0.2rem solid transparent;
+	border-bottom:0.2rem solid transparent;
+	margin: 0 auto;
+	margin-top: 0.68rem;	
+}
+.classify-box2{
+	width: 1.7rem;
+	height: 100%;
+	float: left;
+	margin-left: 0.08rem;
+}
+.classify-box2 p{
+	font-size: 0.25rem;
+	color: #000000;
+	margin-top: 0.25rem;
+	margin-left: 0.02rem;
+	float: left;
+}
+.classify-box3{
+	width: 1.7rem;
+	height: 100%;
+	float: left;
+	margin-left: 0.5rem;
+}
+.classify-box3 p{
+	font-size: 0.25rem;
+	color: #000000;
+	margin-top: 0.21rem;
+	margin-left: 0.34rem;
+	float: left;
+}
+/*第二部分    讲师*/
+section{
+	width: 100%;
+	height: 2.7rem;
+	background: #f5f6fa;
+	padding-top: 0.1rem;
+}
+.teacher{
+	width: 93.6%;
+	height: 2.7rem;
+	background: #fff;
+	margin-left: 0.24rem;
+	display: block;
+}
+.tup{
+	width: 2.3rem;
+	height: 2.3rem;
+	background: #bab6b6;
+	border-radius: 0.07rem;
+	float: left;
+	margin-left: 0.21rem;
+	margin-top: 0.2rem;
+}
+.intrduce{
+	width: 4.25rem;
+	height: 2.02rem;
+	/*background: lavender;*/
+	float: left;
+	margin-top: 0.36rem;
+	margin-left: 0.26rem;
+}
+.in-box1{
+	width: 1.75rem;
+	height: 0.38rem;
+	border-bottom: 0.01rem dashed #999999;
+	float: left;
+	font-size: 0.25rem;
+	color: #000000;
+}
+.in-box2{
+	width: 1.18rem;
+	height: 0.34rem;
+	float: left;
+	margin-left: 1.16rem;
+	font-size: 0.21rem;
+	color: #ff9300;
+}
+.in-box3{
+	width: 1.75rem;
+	height: 0.26rem;
+	float: left;
+	margin-top: 0.09rem;
+	margin-right: 1.75rem;
+	font-size: 0.23rem;
+	color: #01b5ff;
+}
+.intrduce p{
+	width: 3.1rem;
+	height: 0.84rem;
+	float: left;
+	margin-top: 0.24rem;
+	font-size: 0.22rem;
+	color: #666666;
+	padding: 0.1rem;
+}
+/*底部*/
+.tiaoye{
+	width: 100%;
+	height: 0.51rem;
+	display: block;
+	padding-top: 0.19rem;
+}
+.buttom1{
+	width: 0.56rem;
+	height: 0.29rem;
+	border: 0.01rem solid #d5d5d5;
+	border-radius: 0.5rem;
+	float: left;
+	margin-left: 0.2rem;
+	position: relative;
+}
+.buttom1-1{
+	width: 0.48rem;
+	height: 0.23rem;
+	border: 0.01rem solid #000000;
+	border-radius: 0.5rem;
+	margin-top: 0.02rem;
+	margin-left: 0.03rem;		
+}
+.buttom1 img{
+	width: 0.3rem;
+	height: 0.18rem;
+	position: absolute;
+	top: 0.06rem;
+	left: 0.15rem;
+}
+.buttom2{
+	width: 0.3rem;
+	height: 0.3rem;
+	border: 0.01rem solid #d5d5d5;
+	border-radius: 50%;
+	margin-left: 0.15rem;
+	float: left;
+	position: relative;
+}
+.buttom2-1{
+	width: 0.24rem;
+	height: 0.24rem;
+	border: 0.01rem solid #000000;
+	border-radius: 50%;
+	font-size: 0.08rem;
+	color: #000000;	
+	line-height: 0.24rem;	
+	text-align: center;
+	margin-top: 0.02rem;
+	margin-left: 0.02rem;
+}
+.buttom3{
+	width: 0.32rem;
+	height: 0.32rem;
+	background: #38c5ff;
+	border-radius: 50%;
+	margin-left: 0.15rem;
+	float: left;
+	position: relative;
+	box-shadow: 0 0.07rem 0.2rem 0.05rem rgba(1,181,255,0.4);
+}
+.buttom3-1{
+	width: 0.24rem;
+	height: 0.24rem;
+	background: #38c5ff;
+	border: 0.01rem solid #ffffff;
+	border-radius: 50%;
+	font-size: 0.1rem;
+	color: #ffffff;	
+	line-height: 0.24rem;
+	text-align: center;
+	margin-top: 0.02rem;
+	margin-left: 0.02rem;
+}
+.shenlv{
+	font-size: 0.2rem;
+	float: left;
+	margin-left: 0.1rem;
+}
+.tzd{
+	float: left;
+	margin-left: 0.2rem;
+	font-size:0.14rem ;
+	color: #000000;
+	text-align: center;
+	line-height: 0.31rem;
+}
+.buttom4{
+	width: 0.56rem;
+	height: 0.29rem;
+	background: #ffffff;
+	border: 0.01rem solid #e5e5e5;
+	border-radius: 0.5rem;
+	float: left;
+	margin-left: 0.04rem;
+	position: relative;
+}
+.buttom4 input{
+	width: 0.48rem;
+	height: 0.23rem;
+	background: #ffffff;
+	border: 0.01rem solid #e5e5e5;
+	border-radius: 0.5rem;
+	margin-top: 0.02rem;
+	margin-left: 0.03rem;
+	position: absolute;
+}
+.page{
+	float: left;
+	font-size: 0.13rem;
+	color: #000000;
+	margin-left: 0.06rem;
+}
+.buttom5{
+	width: 0.3rem;
+	height: 0.3rem;
+	border: 0.01rem solid #d5d5d5;
+	border-radius: 50%;
+	margin-left: 0.11rem;
+	float: left;
+	position: relative;
+}
+.buttom6{
+	width: 0.56rem;
+	height: 0.29rem;
+	border: 0.01rem solid #d5d5d5;
+	border-radius: 0.5rem;
+	float: left;
+	margin-left: 0.15rem;
+	position: relative;
+}
+.buttom6 img{
+	width: 0.3rem;
+	height: 0.18rem;
+	position: absolute;
+	top: 0.06rem;
+	left: 0.15rem;
+}
+.box3{
+	width: 6.02rem;
+	height: 0.86rem;
+	margin: 0 auto;
+	margin-top: 0.16rem;
+}
+.box3 p{
+	font-size: 0.18rem;
+	color: #666666;
+	text-align: center;
+	margin-top: 0.15rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
